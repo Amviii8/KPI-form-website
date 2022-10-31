@@ -1,0 +1,87 @@
+*{
+    padding:0;
+    margin: 0;
+    font-family: sans-serif ;
+}
+
+body{
+    background: url(https://papers.co/wallpaper/papers.co-vn74-wave-dark-ocean-sea-blue-pattern-36-3840x2400-4k-wallpaper.jpg) no-repeat;
+    background-size: cover;
+}
+
+.login-form{
+    width: 350px;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    position:fixed;
+    color: #fff;
+}
+
+.login-form h1{
+    font-size: 50px;
+    text-align: center;
+    text-transform: lowercase;
+    margin: 40px 0;
+}
+
+.login-form p{
+    font-size: 20px;
+    margin: 15px 0;
+    align-self: center;
+}
+
+.login-form input{
+    font-size: 16px;
+    width: 75%;
+    padding: 15px 10px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+}
+
+.login-form button{
+    background-color: #72d2f0;
+    color:antiquewhite;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 80%;
+    border: 0;
+    border-radius: 5px;
+    
+}
+
+.cookieuse{
+    margin: 0px 0;
+    text-align: center;
+    font-size: 14px;
+    color: antiquewhite;
+    ;
+    
+}
+
+.cookieuse a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.cookieuse a:hover{
+    text-decoration: underline;
+}
+
+.tp {
+   position:fixed;
+   bottom: 3%; 
+   left: 3%;
+   font-size: 20px;
+   color: antiquewhite;
+}
+
+
+.cookieuse2 a {
+    color: #72d2f0;
+    font-weight: bold;
+    font-size: 14px;
+}
